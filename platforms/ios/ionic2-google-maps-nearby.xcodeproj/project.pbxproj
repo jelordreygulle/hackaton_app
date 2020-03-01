@@ -27,6 +27,20 @@
 		458DA294C9BC4CCC891B18E2 /* CDVReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = ED04C0B2BBA54849B0F23846 /* CDVReachability.m */; };
 		9FC143C89DE540F5A91B47A1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B41024A91FD4C61AA410729 /* SystemConfiguration.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		EEE0B36F26054F91B68362C4 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5554DE56D00468F85490B12 /* CoreTelephony.framework */; };
+		7886296C93FB4D0BB55195ED /* CDVBarcodeScanner.mm in Resources */ = {isa = PBXBuildFile; fileRef = F3C4730C09A0461D8CB97330 /* CDVBarcodeScanner.mm */; };
+		98624DE31C174122B6A421A3 /* scannerOverlay.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81858CBDFA1D413D8E529E2F /* scannerOverlay.xib */; };
+		AF761052E0AC4826BB627629 /* CDVBarcodeScanner.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FF3117962D984D8E8305C130 /* CDVBarcodeScanner.bundle */; };
+		1A7E59D8F0124F158C341D84 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55170419A96F49748FD18705 /* AVFoundation.framework */; };
+		24B65AEDA82846DBB78ECEC9 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A921AED30254A27ACF3D573 /* AudioToolbox.framework */; };
+		D149BE7A5AF84888A334AD65 /* Toast+UIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB41217427C4EC4BF88FDC9 /* Toast+UIView.m */; };
+		A5287AAF7FEA48CC9C5A2F4C /* Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DDE990CA30343B9A3DFB674 /* Toast.m */; };
+		BBBBB1BE24A44C3BB09DBA1F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF1D73176AF440498C84A3D3 /* QuartzCore.framework */; };
+		7457DCE8158D48A1AE0CE48F /* CDVWKWebViewEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = BD5B63452CA446028D0FA289 /* CDVWKWebViewEngine.m */; };
+		FC22DA29483E4C2B8C1C5121 /* CDVWKWebViewUIDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F14B5B652874C308E77FD7E /* CDVWKWebViewUIDelegate.m */; };
+		A245C61399C244B79B571523 /* CDVWKProcessPoolFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = F17085653ABF4801A207823E /* CDVWKProcessPoolFactory.m */; };
+		8C4CC821FC8F4033BB0A0F4F /* IONAssetHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EBE1E12F6D24A40833BA0D2 /* IONAssetHandler.m */; };
+		FF3861E107FB46FA8E01AE3E /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 438AF388829347D5A0645712 /* WebKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		4BAED453D8CA4AF5B0CC52F4 /* CDVIonicKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = D579071A409F4C69B661DD93 /* CDVIonicKeyboard.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +101,27 @@
 		766294DEE99D452E809B7BEB /* CDVReachability.h */ = {isa = PBXFileReference; name = "CDVReachability.h"; path = "cordova-plugin-network-information/CDVReachability.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
 		2B41024A91FD4C61AA410729 /* SystemConfiguration.framework */ = {isa = PBXFileReference; name = "SystemConfiguration.framework"; path = "System/Library/Frameworks/SystemConfiguration.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
 		B5554DE56D00468F85490B12 /* CoreTelephony.framework */ = {isa = PBXFileReference; name = "CoreTelephony.framework"; path = "System/Library/Frameworks/CoreTelephony.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		F3C4730C09A0461D8CB97330 /* CDVBarcodeScanner.mm */ = {isa = PBXFileReference; name = "CDVBarcodeScanner.mm"; path = "phonegap-plugin-barcodescanner/CDVBarcodeScanner.mm"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		81858CBDFA1D413D8E529E2F /* scannerOverlay.xib */ = {isa = PBXFileReference; name = "scannerOverlay.xib"; path = "scannerOverlay.xib"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = file.xib; explicitFileType = undefined; includeInIndex = 0; };
+		FF3117962D984D8E8305C130 /* CDVBarcodeScanner.bundle */ = {isa = PBXFileReference; name = "CDVBarcodeScanner.bundle"; path = "CDVBarcodeScanner.bundle"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.plug-in; explicitFileType = undefined; includeInIndex = 0; };
+		55170419A96F49748FD18705 /* AVFoundation.framework */ = {isa = PBXFileReference; name = "AVFoundation.framework"; path = "System/Library/Frameworks/AVFoundation.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		0A921AED30254A27ACF3D573 /* AudioToolbox.framework */ = {isa = PBXFileReference; name = "AudioToolbox.framework"; path = "System/Library/Frameworks/AudioToolbox.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		5BB41217427C4EC4BF88FDC9 /* Toast+UIView.m */ = {isa = PBXFileReference; name = "Toast+UIView.m"; path = "cordova-plugin-x-toast/Toast+UIView.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		4DDE990CA30343B9A3DFB674 /* Toast.m */ = {isa = PBXFileReference; name = "Toast.m"; path = "cordova-plugin-x-toast/Toast.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		6E90C871BF094AE6B1C3BC05 /* Toast+UIView.h */ = {isa = PBXFileReference; name = "Toast+UIView.h"; path = "cordova-plugin-x-toast/Toast+UIView.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		EFA7856EC31F48FBA27C6DB1 /* Toast.h */ = {isa = PBXFileReference; name = "Toast.h"; path = "cordova-plugin-x-toast/Toast.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		FF1D73176AF440498C84A3D3 /* QuartzCore.framework */ = {isa = PBXFileReference; name = "QuartzCore.framework"; path = "System/Library/Frameworks/QuartzCore.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		BD5B63452CA446028D0FA289 /* CDVWKWebViewEngine.m */ = {isa = PBXFileReference; name = "CDVWKWebViewEngine.m"; path = "cordova-plugin-ionic-webview/CDVWKWebViewEngine.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		2F14B5B652874C308E77FD7E /* CDVWKWebViewUIDelegate.m */ = {isa = PBXFileReference; name = "CDVWKWebViewUIDelegate.m"; path = "cordova-plugin-ionic-webview/CDVWKWebViewUIDelegate.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		F17085653ABF4801A207823E /* CDVWKProcessPoolFactory.m */ = {isa = PBXFileReference; name = "CDVWKProcessPoolFactory.m"; path = "cordova-plugin-ionic-webview/CDVWKProcessPoolFactory.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		5EBE1E12F6D24A40833BA0D2 /* IONAssetHandler.m */ = {isa = PBXFileReference; name = "IONAssetHandler.m"; path = "cordova-plugin-ionic-webview/IONAssetHandler.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		3D4844FDE9584D77B09E5A66 /* CDVWKWebViewEngine.h */ = {isa = PBXFileReference; name = "CDVWKWebViewEngine.h"; path = "cordova-plugin-ionic-webview/CDVWKWebViewEngine.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		261FC75D959C43F0B6ABFF57 /* CDVWKWebViewUIDelegate.h */ = {isa = PBXFileReference; name = "CDVWKWebViewUIDelegate.h"; path = "cordova-plugin-ionic-webview/CDVWKWebViewUIDelegate.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		4E285D908CA64CB48B2678BB /* CDVWKProcessPoolFactory.h */ = {isa = PBXFileReference; name = "CDVWKProcessPoolFactory.h"; path = "cordova-plugin-ionic-webview/CDVWKProcessPoolFactory.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		E695948624544267A9AE5A2D /* IONAssetHandler.h */ = {isa = PBXFileReference; name = "IONAssetHandler.h"; path = "cordova-plugin-ionic-webview/IONAssetHandler.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		438AF388829347D5A0645712 /* WebKit.framework */ = {isa = PBXFileReference; name = "WebKit.framework"; path = "System/Library/Frameworks/WebKit.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		D579071A409F4C69B661DD93 /* CDVIonicKeyboard.m */ = {isa = PBXFileReference; name = "CDVIonicKeyboard.m"; path = "cordova-plugin-ionic-keyboard/CDVIonicKeyboard.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		7D4B818A83C042168DBD71A2 /* CDVIonicKeyboard.h */ = {isa = PBXFileReference; name = "CDVIonicKeyboard.h"; path = "cordova-plugin-ionic-keyboard/CDVIonicKeyboard.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +133,10 @@
 				0FAFE3A60B4E40839878A6CD /* CoreLocation.framework in Frameworks */,
 				9FC143C89DE540F5A91B47A1 /* SystemConfiguration.framework in Frameworks */,
 				EEE0B36F26054F91B68362C4 /* CoreTelephony.framework in Frameworks */,
+				1A7E59D8F0124F158C341D84 /* AVFoundation.framework in Frameworks */,
+				24B65AEDA82846DBB78ECEC9 /* AudioToolbox.framework in Frameworks */,
+				BBBBB1BE24A44C3BB09DBA1F /* QuartzCore.framework in Frameworks */,
+				FF3861E107FB46FA8E01AE3E /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,6 +198,8 @@
 				0207DA571B56EA530066E2B4 /* Images.xcassets */,
 				3047A50E1AB8057F00498E2A /* config */,
 				8D1107310486CEB800E47090 /* ionic2-google-maps-nearby-Info.plist */,
+				81858CBDFA1D413D8E529E2F /* scannerOverlay.xib */,
+				FF3117962D984D8E8305C130 /* CDVBarcodeScanner.bundle */,
 			);
 			name = Resources;
 			path = "ionic2-google-maps-nearby/Resources";
@@ -170,6 +211,10 @@
 				ECFA148474F24F96AF143B20 /* CoreLocation.framework */,
 				2B41024A91FD4C61AA410729 /* SystemConfiguration.framework */,
 				B5554DE56D00468F85490B12 /* CoreTelephony.framework */,
+				55170419A96F49748FD18705 /* AVFoundation.framework */,
+				0A921AED30254A27ACF3D573 /* AudioToolbox.framework */,
+				FF1D73176AF440498C84A3D3 /* QuartzCore.framework */,
+				438AF388829347D5A0645712 /* WebKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -213,6 +258,21 @@
 				ED04C0B2BBA54849B0F23846 /* CDVReachability.m */,
 				525B6C32137E4D4FB087132C /* CDVConnection.h */,
 				766294DEE99D452E809B7BEB /* CDVReachability.h */,
+				F3C4730C09A0461D8CB97330 /* CDVBarcodeScanner.mm */,
+				5BB41217427C4EC4BF88FDC9 /* Toast+UIView.m */,
+				4DDE990CA30343B9A3DFB674 /* Toast.m */,
+				6E90C871BF094AE6B1C3BC05 /* Toast+UIView.h */,
+				EFA7856EC31F48FBA27C6DB1 /* Toast.h */,
+				BD5B63452CA446028D0FA289 /* CDVWKWebViewEngine.m */,
+				2F14B5B652874C308E77FD7E /* CDVWKWebViewUIDelegate.m */,
+				F17085653ABF4801A207823E /* CDVWKProcessPoolFactory.m */,
+				5EBE1E12F6D24A40833BA0D2 /* IONAssetHandler.m */,
+				3D4844FDE9584D77B09E5A66 /* CDVWKWebViewEngine.h */,
+				261FC75D959C43F0B6ABFF57 /* CDVWKWebViewUIDelegate.h */,
+				4E285D908CA64CB48B2678BB /* CDVWKProcessPoolFactory.h */,
+				E695948624544267A9AE5A2D /* IONAssetHandler.h */,
+				D579071A409F4C69B661DD93 /* CDVIonicKeyboard.m */,
+				7D4B818A83C042168DBD71A2 /* CDVIonicKeyboard.h */,
 			);
 			name = Plugins;
 			path = "ionic2-google-maps-nearby/Plugins";
@@ -296,6 +356,8 @@
 				3047A5141AB8059700498E2A /* build.xcconfig in Resources */,
 				0207DA581B56EA530066E2B4 /* Images.xcassets in Resources */,
 				3047A5121AB8059700498E2A /* build-debug.xcconfig in Resources */,
+				98624DE31C174122B6A421A3 /* scannerOverlay.xib in Resources */,
+				AF761052E0AC4826BB627629 /* CDVBarcodeScanner.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,6 +398,14 @@
 				739058BAD62042D48780C333 /* CDVLocation.m in Sources */,
 				AF3AB008204E41DEB281CE26 /* CDVConnection.m in Sources */,
 				458DA294C9BC4CCC891B18E2 /* CDVReachability.m in Sources */,
+				7886296C93FB4D0BB55195ED /* CDVBarcodeScanner.mm in Resources */,
+				D149BE7A5AF84888A334AD65 /* Toast+UIView.m in Sources */,
+				A5287AAF7FEA48CC9C5A2F4C /* Toast.m in Sources */,
+				7457DCE8158D48A1AE0CE48F /* CDVWKWebViewEngine.m in Sources */,
+				FC22DA29483E4C2B8C1C5121 /* CDVWKWebViewUIDelegate.m in Sources */,
+				A245C61399C244B79B571523 /* CDVWKProcessPoolFactory.m in Sources */,
+				8C4CC821FC8F4033BB0A0F4F /* IONAssetHandler.m in Sources */,
+				4BAED453D8CA4AF5B0CC52F4 /* CDVIonicKeyboard.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -369,6 +439,7 @@
 				INFOPLIST_FILE = "ionic2-google-maps-nearby/ionic2-google-maps-nearby-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				PRODUCT_NAME = "ionic2-google-maps-nearby";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 			};
 			name = Debug;
 		};
@@ -388,6 +459,7 @@
 				GCC_VERSION = "";
 				INFOPLIST_FILE = "ionic2-google-maps-nearby/ionic2-google-maps-nearby-Info.plist";
 				PRODUCT_NAME = "ionic2-google-maps-nearby";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 			};
 			name = Release;
 		};
@@ -415,6 +487,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = NO;
 				PRODUCT_NAME = "ionic2-google-maps-nearby";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 			};
 			name = Debug;
 		};
@@ -441,6 +514,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = NO;
 				PRODUCT_NAME = "ionic2-google-maps-nearby";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 			};
 			name = Release;
 		};

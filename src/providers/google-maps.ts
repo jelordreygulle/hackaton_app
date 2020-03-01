@@ -51,9 +51,11 @@ export class GoogleMaps {
           }
 
           let script = document.createElement("script");
+          this.apiKey  = 'AIzaSyBFyFBTGdn4UjKhAwgZNQ_4iEi2wbLEl1E'
           script.id = "googleMaps";
 
           if(this.apiKey){
+            console.log("this.apiKeythis.apiKeythis.apiKey")
             script.src = 'http://maps.google.com/maps/api/js?key=' + this.apiKey + '&callback=mapInit';
           } else {
             script.src = 'http://maps.google.com/maps/api/js?callback=mapInit';       

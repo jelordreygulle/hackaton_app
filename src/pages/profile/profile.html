@@ -1,0 +1,45 @@
+<ion-header>
+    <ion-navbar color="secondary">
+      <ion-title>POINTS</ion-title>
+    </ion-navbar>
+  </ion-header>
+   
+  <ion-content class="login-content" padding>
+    <div class="login-box">
+      
+      <form (ngSubmit)="register()" #registerForm="ngForm">
+        <ion-row>
+          <ion-col>
+            <ion-list inset>
+            <ion-header>
+                <ion-navbar>
+                    <ion-title>Basic Cards</ion-title>
+                </ion-navbar>
+            </ion-header>
+            
+            <ion-content class="cards-bg">
+            
+                <ion-card>
+  
+    <ion-card-content>
+      This is just your basic card with some text to boot. Like it?  Keep scrolling...
+    </ion-card-content>
+  
+  </ion-card>
+  
+  
+  </ion-content>
+              
+            </ion-list>
+          </ion-col>
+        </ion-row>
+        
+        <ion-row>
+          <ion-col class="signup-col">
+            <button ion-button class="submit-btn" full type="submit" [disabled]="!registerForm.form.valid">REDEEM REWARDS</button>
+          </ion-col>
+        </ion-row>
+        
+      </form>
+    </div>
+  </ion-content>
