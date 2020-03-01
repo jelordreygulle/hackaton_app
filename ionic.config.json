@@ -1,0 +1,10 @@
+{
+  "name": "ionic2-google-maps-nearby",
+  "integrations": {
+    "cordova": {},
+    "capacitor": {}
+  },
+  "type": "angular",
+  "v2": true,
+  "typescript": true
+}

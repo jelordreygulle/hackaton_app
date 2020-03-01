@@ -1,0 +1,50 @@
+{
+    "locations": [
+ 
+        {
+            "title": "JY SQUAREMALL",
+            "latitude": 10.326950,
+            "longitude": 123.906258
+        },
+        {
+            "title": "Arcanys Cebu",
+            "latitude": 10.334332,
+            "longitude": 123.898519
+        },{
+            "title": "Lahug Barangay Hall",
+            "latitude": 10.324241,
+            "longitude": 123.898519
+        },
+        {
+            "title": "Camp Lapulapu",
+            "latitude": 10.334332,
+            "longitude": 123.901842
+        },
+        {
+            "title": "Waterfront Hotel & Casino Cebu City",
+            "latitude": 10.324723,
+            "longitude": 123.904628
+        },
+        {
+            "title": "Capitol Site Barangay Hall",
+            "latitude": 10.324675,
+            "longitude": 123.890240
+        },
+        {
+            "title": "TV5 Cebu - Studio",
+            "latitude": 10.335457,
+            "longitude": 123.884475
+        },
+        {
+            "title": "CIE British School - Cebu",
+            "latitude": 10.327131,
+            "longitude": 123.915834
+        },
+        {
+            "title": "Carmelite Monastery",
+            "latitude": 10.318726,
+            "longitude": 123.911481
+        }
+        
+    ]
+}
